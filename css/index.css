@@ -181,6 +181,7 @@ footer nav a {
     align-items: flex-end;
     margin: 0px 20px 0px 0px;
 }
+
 /* removed text decoration from nav and forced color black */
 .navcontainer a{
     text-decoration: none;
