@@ -104,13 +104,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -150,4 +180,12 @@ footer nav a {
     padding: 20px 0px 30px 0px;
     align-items: flex-end;
     margin: 0px 20px 0px 0px;
+}
+/* removed text decoration from nav and forced color black */
+.navcontainer a{
+    text-decoration: none;
+    color: black;
+}
+.text-container{
+    margin: 20px 0px;
 }
