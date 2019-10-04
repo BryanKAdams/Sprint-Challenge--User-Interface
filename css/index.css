@@ -144,3 +144,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 30px 0px;
+    align-items: flex-end;
+    margin: 0px 20px 0px 0px;
+}
