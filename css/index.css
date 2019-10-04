@@ -241,20 +241,30 @@ footer nav a {
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: justify;
-  }
-  .middle-about img{
-      filter: grayscale(.8);
-  }
-  .middle-about img:hover{
+}
+.middle-about img{
+    filter: grayscale(.8);
+}
+.middle-about img:hover{
     animation: bloom ease-in-out .75s forwards;
-    }
-  @keyframes bloom {
-	0% {
-		filter: grayscale(.8);
-	}
-	40% {
-		filter: grayscale(.5);
-	}
-	100% {
-		filter: grayscale(0);
-    }
+}
+@keyframes bloom {
+0% {
+	filter: grayscale(.8);
+}
+40% {
+	filter: grayscale(.5);
+}
+100% {
+    filter: grayscale(0);
+}
+}
+@media screen and (min-width: 200px) {
+ 
+  }
+  @media screen and (max-width: 2000px) {
+      .middle-about div{
+          width: 51%;
+          
+      }
+  }
