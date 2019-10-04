@@ -190,9 +190,11 @@ footer nav a {
     margin: 20px 0px;
 }
 .text-style{
-    width: 95%;
-    margin: auto;
     margin-top: 20px;
+    padding: 0px 20px;
+}
+.text-style p{
+    margin-bottom: 15px;
 }
 /* About Page Specific */
 .top-about{
@@ -203,26 +205,39 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 .middle-about div{
     width: 49%;
 }
 .child{
-    padding: 20px 0px;
+    padding: 10px 0px 25px 0px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.child h2{
+    padding-top: 20px;;
 }
 .btn{
     border: 2px solid black;
     color: black;
     width: 30%;
+    height: 8%;
     text-align: center;
     border-radius: 10px;
-    padding: 5px;
+    padding: 8px;
     margin: 10px 0px;
     text-decoration: none;
+    display: block;
 }
 .middle-about p{
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
+
+.bottomsec{
+    margin-top: 20px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
