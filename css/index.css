@@ -197,6 +197,7 @@ footer nav a {
 /* About Page Specific */
 .top-about{
     text-align: justify;
+    border-bottom: 1px dashed black;
 }
 .middle-about{
     display: flex;
@@ -206,4 +207,22 @@ footer nav a {
 }
 .middle-about div{
     width: 49%;
+}
+.child{
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.btn{
+    border: 2px solid black;
+    color: black;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0px;
+    text-decoration: none;
+}
+.middle-about p{
+    margin: 10px 0px;
 }
