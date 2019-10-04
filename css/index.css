@@ -193,3 +193,12 @@ footer nav a {
 .top-about{
     text-align: justify;
 }
+.middle-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.middle-about div{
+    width: 49%;
+}
