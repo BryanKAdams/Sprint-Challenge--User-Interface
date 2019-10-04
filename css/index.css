@@ -189,6 +189,11 @@ footer nav a {
 .text-container{
     margin: 20px 0px;
 }
+.text-style{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
 /* About Page Specific */
 .top-about{
     text-align: justify;
